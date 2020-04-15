@@ -9,21 +9,8 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 
 The training data set, (train.csv), has 785 columns. The first column, called "label", is the digit that was drawn by the user. The rest of the columns contain the pixel-values of the associated image.
 
-The pixels make up the image like this:
-000 001 002 003 .... 026 027
-
-028 029 030 031 .... 054 055
-
-056 057 058 059 .... 082 083
-
- :   :   :   :  ....  :   :
- 
- :   :   :   :  ....  :   :
- 
-728 729 730 731 .... 754 755
-
-756 757 758 759 .... 782 783 
-
 The test data set, (test.csv), is the same as the training set, except that it does not contain the "label" column. Submission file contains "ImageID" and "Digit" for aech of the 28000 images in the test dataset. 
 
 Logistic Regression algorithm is used here to train the ML model to predict the hand-drawn digit. data is classified into 10 classes, one for each digit from 0 through 9.
+
+Output of the model is stored as a csv file with 2 columns. The first column denotes the "ImageID" for each image in the test data, ranging from 1 to 28000. Second column ("Label") contains the digit as predicted by the model.
