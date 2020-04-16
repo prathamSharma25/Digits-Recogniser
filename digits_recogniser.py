@@ -55,7 +55,7 @@ X_test = scaler.fit_transform(X_test)
 
 # Training a logistic regression ML model
 from sklearn.linear_model import LogisticRegression
-digit_classifier = LogisticRegression(random_state = 0)
+digit_classifier = LogisticRegression(random_state = 0, class_weight = "balanced")
 digit_classifier.fit(X_train, y_train)
 
 
