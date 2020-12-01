@@ -1,4 +1,4 @@
-# Digits-Recogniser
+# Digits Recogniser
 MACHINE LEARNING MODEL TO PREDICT HAND-DRAWN DIGITS IN PYTHON.
 
 This model identifies the hand-drawn digit based on the data about each pixel of the image of the hand-drawn digit. Digits from 0 through 9 are hand-drawn.
