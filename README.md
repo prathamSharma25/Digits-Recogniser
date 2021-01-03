@@ -15,7 +15,7 @@ Logistic Regression algorithm is used here to train the ML model to predict the 
 
 Output of the model is stored as a csv file with 2 columns. The first column denotes the "ImageID" for each image in the test data, ranging from 1 to 28000. Second column ("Label") contains the digit as predicted by the model.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 Pratham Sharma
 
